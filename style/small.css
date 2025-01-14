@@ -18,7 +18,7 @@
         background-color: var(--cor1);
         display: block;
         margin: auto;
-        padding: 0px 15px 120px 0px;
+        padding: 0px 0px 120px 0px;
         border-radius: 10px 0px 0px 10px;
     
         width: 300px;
@@ -27,23 +27,25 @@
 
     #forms {
         position: absolute;
-        top: 30%;
-        left: 20%;
+        top: 25%;
+        left: 25%;
     }
+
     label, input {
         margin: 10px 5px;
     }
 
     .fim {
-        padding: 20px 0px 0px 80px;
+        text-align: center;
+        padding: 20px 10px 0px 0px;
     }
 
-    div img {
-       /* display: inline-block; */
+    main img {
+        display: inline-block;
         max-width: 100px;
     
         position: absolute;
-        top: 45%;
+        top: 0%;
         left: 73%;
     }
 }
