@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina login</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/general.css" media="screen"> <!-- configs gerais-->
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css" media="screen" and (min-width:601) and (max-width: 1500px)>
+    <link rel="stylesheet" href="style/large.css" media="screen" and (min-width:1501)>
 </head>
 <body>
-    
+    <main>
+        <div id="forms">
+            <form action="login.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iusu">usuário: </label>
+                    <input type="email" name="usu" id="iusu" required minlength="8" placeholder="seuemail@gmail.com" size="15">
+                </p>
+            
+                <p>
+                    <label for="isen">Senha:  </label>
+                    <input type="text" name="sen" id="isen" required minlength="8" size="16">
+                </p>
+                <p class="fim">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </div>
+        <div>
+            <img src="imagens/entrada.jpg" alt="porta de entrada">
+        </div>
+    </main>
 </body>
 </html>

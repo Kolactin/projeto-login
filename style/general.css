@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+        --cor1: #733F49;
+        --cor2: #D90467;
+        --cor3: #C5C8D9;
+        --cor4: #8C7530;
+        --cor5: #A67C58;
+
+}
+    
+html, body {
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor2));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+img {display: none;}
